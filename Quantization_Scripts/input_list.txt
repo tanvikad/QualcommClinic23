@@ -1,1 +1,1 @@
-TestModel/inputs/post-tokenized/input1.txt TestModel/attention_masks/input1.txt
+questions/posttokenized/question1.txt answers/posttokenized/answer2.txt
