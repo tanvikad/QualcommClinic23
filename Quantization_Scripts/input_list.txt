@@ -1,0 +1,1 @@
+TestModel/inputs/post-tokenized/input1.txt TestModel/attention_masks/input1.txt

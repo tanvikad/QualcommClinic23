@@ -1,0 +1,4 @@
+TestModel/inputs/pre-tokenized/input1.txt
+TestModel/inputs/pre-tokenized/input2.txt
+TestModel/inputs/pre-tokenized/input3.txt
+TestModel/inputs/pre-tokenized/input4.txt
