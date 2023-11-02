@@ -14,6 +14,9 @@ question_posttokenized_root = "./questions/posttokenized"
 answer_pretokenized_root = "./answers/pretokenized"
 answer_posttokenized_root = "./answers/posttokenized"
 
+print(tokenizer(" ", return_tensors="pt", padding=True, truncation=True))
+print(tokenizer("What is the capital of France?", return_tensors="pt", padding=True, truncation=True))
+
 def tokenize_and_attention_mask(filename):
     with open(f"{pre_tokenized_root}/{filename}") as f:
         lines = f.readlines()

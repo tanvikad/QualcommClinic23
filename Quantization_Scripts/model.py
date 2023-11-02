@@ -15,7 +15,7 @@ inputs = tokenizer(text, return_tensors="pt")
 
 onnx_path = "./tiny_roberta.onnx"
 
-sample_text = ["Sample text 1", "Sample text 2", "Sample text 3", "Sample text 4"]
+sample_text = ["Sample text 1 Sample text 2 Sample text 3 Sample text 4"]
 
 tokens = tokenizer(sample_text, return_tensors="pt", padding=True, truncation=True)
 
